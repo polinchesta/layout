@@ -1,6 +1,5 @@
 button 
     display: block
-
     margin: 27px auto 17px auto
     width: 250px
     height: 46px
@@ -13,3 +12,36 @@ button
     font-size: 18px
     line-height: 21px
     color: #FFFFFF
+
+    @media (max-width: 1024px)
+        width: 240px
+        font-size: 17px
+        height: 43px
+        margin: 26px auto 16px auto
+
+    @media (max-width: 768px)
+        width: 220px
+        height: 43px
+        font-size: 16px
+        margin: 25px auto 15px auto
+
+    @media (max-width: 320px)
+        width: 210px
+        height: 43px
+        font-size: 15px
+        margin: 24px auto 14px auto
+
+    &:hover
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+
+.container-card__info__list-button
+    margin-top: 56px
+
+    @media (max-width: 1024px)
+        margin-top: 55px
+
+    @media (max-width: 768px)
+        margin-top: 54px
+
+    @media (max-width: 320px)
+        margin-top: 53px

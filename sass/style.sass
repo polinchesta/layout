@@ -10,13 +10,15 @@
     width: 928px
     display: flex
     margin: 0px auto
-    top: 50%
-    transform: translate(0%, 30%) 
+    transform: translate(0%, 28%) 
     border-top: none
 
+
+    @media (max-width: 320px)
+        display: inline
+
     .container-card
-        border: 1px solid #0D274D
-            
+        border: 1px solid #0D274D 
         
         .container-card__title
             background: #0D274D 
@@ -30,15 +32,46 @@
                 font-size: 16px
                 line-height: 22px
 
+                @media (max-width: 1024px)
+                    font-size: 15px
+
+                @media (max-width: 768px)
+                    font-size: 14px
+
+                @media (max-width: 320px)
+                    font-size: 13px
+                    
+
         .container-card__info
             background: white 
             font-size: 15px
+
+            @media (max-width: 1024px)
+                font-size: 14px
+
+            @media (max-width: 768px)
+                font-size: 13px
+
+            @media (max-width: 320px)
+                font-size: 12px
             
             .create-line 
                 width: 238px
                 margin: 0px auto
                 border: 1px solid #00BCEB
                 margin-top: 47px
+
+                @media (max-width: 1024px)
+                    width: 235px
+                    margin-top: 45px
+
+                @media (max-width: 768px)
+                    width: 230px
+                    margin-top: 42px
+
+                @media (max-width: 320px)
+                    width: 220px
+                    margin-top: 37px
 
             .create-line3
                 margin-top: 22px
@@ -51,6 +84,15 @@
                 line-height: 21px
                 color: #000000
 
+                @media (max-width: 1024px)
+                    font-size: 14px
+
+                @media (max-width: 768px)
+                    font-size: 13px
+
+                @media (max-width: 320px)
+                    font-size: 12px
+
 
             .container-card__info__services
                 display: flex
@@ -58,14 +100,40 @@
                 text-align: left
                 padding-left: 16px
 
+                @media (max-width: 1024px)
+                    margin-top: 13px
+                    padding-left: 15px
+
+                @media (max-width: 768px)
+                    margin-top: 12px
+                    padding-left: 14px
+
+                @media (max-width: 320px)
+                    margin-top: 11px
+                    padding-left: 13px
+
                 img
                     height: 13px
                     width: 16px
                     margin-right: 12px
 
+                
+
                 .container-card__info__services1
                     width: 215px
                     margin-bottom: 28px
+
+                    @media (max-width: 1024px)
+                        width: 210px
+                        margin-bottom: 28px
+
+                    @media (max-width: 768px)
+                        width: 205px
+                        margin-bottom: 28px
+
+                    @media (max-width: 320px)
+                        width: 200px
+                        margin-bottom: 28px
 
                 .container-card__info__services2
                     margin-bottom: 49px
@@ -73,6 +141,18 @@
                 .container-card__info__services3
                     width: 237px
                     margin-bottom: 27px 
+
+                    @media (max-width: 1024px)
+                        width: 235px
+                        margin-bottom: 24px
+
+                    @media (max-width: 768px)
+                        width: 230px
+                        margin-bottom: 23px
+
+                    @media (max-width: 320px)
+                        width: 225px
+                        margin-bottom: 22px
             h2
                 font-family: 'Arial'
                 font-style: normal
@@ -82,13 +162,21 @@
                 text-align: center
                 margin: 0px auto
 
+                @media (max-width: 1024px)
+                    font-size: 14px
+
+                @media (max-width: 768px)
+                    font-size: 13px
+
+                @media (max-width: 320px)
+                    font-size: 12px
+
                 
 
             .container-card__info__price
                 display: flex
                 justify-content: center
                 align-items: flex-end
-                width: 238px
                 margin: 0px auto
 
                 h3
@@ -100,6 +188,15 @@
                     text-align: center
                     color: #0E9A0B
 
+                    @media (max-width: 1024px)
+                        font-size: 19px
+
+                    @media (max-width: 768px)
+                        font-size: 18px
+
+                    @media (max-width: 320px)
+                        font-size: 17px
+
                 p
                     font-family: 'Arial'
                     font-style: normal
@@ -108,64 +205,73 @@
                     color: #282828
                     font-size: 14px
                     margin-left: 5px
+
+                    @media (max-width: 1024px)
+                        font-size: 13px
+
+                    @media (max-width: 768px)
+                        font-size: 12px
+
+                    @media (max-width: 320px)
+                        font-size: 11px
                 
 
             .container-card__info__header
                 margin-top: 14px
 
-            .container-card__info__list
-                display: flex
-                margin-top:14px
+                @media (max-width: 1024px)
+                    margin-top: 13px
 
-                @import "./buttonStyle"
+                @media (max-width: 768px)
+                    margin-top: 12px
 
-                .container-card__info__list-right1
-                    margin-left: 25px
-                    
-                .container-card__info__list-left, .container-card__info__list-right
-                    display: flex
-                    flex-direction: column 
-                    align-items: center
+                @media (max-width: 320px)
+                    margin-top: 11px
 
-                
-
-                    a
-                        font-family: 'Arial'
-                        font-style: normal
-                        font-weight: 400
-                        font-size: 16px
-                        line-height: 21px
-                        text-decoration-line: underline
-
-                    img 
-                        margin: 0px 15px
-
-                    .container-card__info__list-left-block, .container-card__info__list-right-block
-                        display: flex
-                        margin-top: 8px 
-
-
-                    .container-card__info__list-right-block
-                        margin-left: 38px
-
-                    .container-card__info__list-right-block1
-                        margin-left: 0px
-
+            @import url("./listStyle.sass")
 
     .container-card1
         width: 281px
 
+        @media (max-width: 1024px)
+            width: 100vw
+
+        @media (max-width: 768px)
+            width: 100vw
+
+        @media (max-width: 320px)
+            width: 100vw
+
         .container-card__title__text
             padding: 15px 0px 15px 46px
+            
 
     .container-card2
         width: 320px
+
+        @media (max-width: 1024px)
+            width: 100vw
+
+        @media (max-width: 768px)
+            width: 100vw
+
+        @media (max-width: 320px)
+            width: 100vw
 
         .container-card__title__text
             padding: 15px 0px 15px 57px
 
     .container-card3
         width: 327px
+
+        @media (max-width: 1024px)
+            width: 100vw
+
+        @media (max-width: 768px)
+            width: 100vw
+
+        @media (max-width: 320px)
+            width: 100vw
 
         .container-card__title__text
             padding: 15px 0px 15px 101px

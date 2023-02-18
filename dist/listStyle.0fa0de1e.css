@@ -1,0 +1,64 @@
+.container-card__info__list {
+  margin-top: 14px;
+}
+.container-card__info__list button {
+  display: block;
+  margin: 27px auto 17px auto;
+  width: 250px;
+  height: 46px;
+  background: #00BCEB;
+  border-radius: 6px;
+  border: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.container-card__info__list button:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.container-card__info__list .container-card__info__list-button2 {
+  margin-top: 56px;
+}
+.container-card__info__list .container-card__info__list-group {
+  display: flex;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-right1 {
+  margin-left: 20px !important;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-right {
+  margin-left: 38px;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left, .container-card__info__list .container-card__info__list-group .container-card__info__list-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left li, .container-card__info__list .container-card__info__list-group .container-card__info__list-right li {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left:hover, .container-card__info__list .container-card__info__list-group .container-card__info__list-right:hover {
+  color: #00BBEA;
+  text-decoration-line: none;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left .container-card__info__list-height, .container-card__info__list .container-card__info__list-group .container-card__info__list-right .container-card__info__list-height {
+  margin-top: 8px;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left img, .container-card__info__list .container-card__info__list-group .container-card__info__list-right img {
+  margin: 0px 15px;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left img .container-card__info__list-right-block, .container-card__info__list .container-card__info__list-group .container-card__info__list-right img .container-card__info__list-right-block {
+  margin-left: 38px;
+}
+.container-card__info__list .container-card__info__list-group .container-card__info__list-left img .container-card__info__list-right-block1, .container-card__info__list .container-card__info__list-group .container-card__info__list-right img .container-card__info__list-right-block1 {
+  margin-left: 0px;
+}
+
+/*# sourceMappingURL=/listStyle.0fa0de1e.css.map */
