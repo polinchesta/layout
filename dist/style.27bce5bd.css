@@ -12,7 +12,7 @@
   display: flex;
   margin: 0px auto;
   top: 50%;
-  transform: translate(0%, 50%);
+  transform: translate(0%, 30%);
   border-top: none;
 }
 .container .container-card {
@@ -112,14 +112,32 @@
 }
 .container .container-card .container-card__info .container-card__info__list {
   display: flex;
-  align-items: center;
+  margin-top: 14px;
 }
-.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left {
+.container .container-card .container-card__info .container-card__info__list button {
+  display: block;
+  margin: 27px auto 17px auto;
+  width: 250px;
+  height: 46px;
+  background: #00BCEB;
+  border-radius: 6px;
+  border: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right1 {
+  margin-left: 25px;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left p {
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left a, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right a {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -127,24 +145,18 @@
   line-height: 21px;
   text-decoration-line: underline;
 }
-.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left .container-card__info__list-left-block {
-  display: flex;
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left img, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right img {
+  margin: 0px 15px;
 }
-.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right {
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left .container-card__info__list-left-block, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-left .container-card__info__list-right-block, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right .container-card__info__list-left-block, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right .container-card__info__list-right-block {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 8px;
 }
-.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right p {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  text-decoration-line: underline;
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left .container-card__info__list-right-block, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right .container-card__info__list-right-block {
+  margin-left: 38px;
 }
-.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right .container-card__info__list-right-block {
-  display: flex;
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left .container-card__info__list-right-block1, .container .container-card .container-card__info .container-card__info__list .container-card__info__list-right .container-card__info__list-right-block1 {
+  margin-left: 0px;
 }
 .container .container-card1 {
   width: 281px;

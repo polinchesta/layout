@@ -1,0 +1,17 @@
+button {
+  display: block;
+  margin: 27px auto 17px auto;
+  width: 250px;
+  height: 46px;
+  background: #00BCEB;
+  border-radius: 6px;
+  border: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=/buttonStyle.1c0cf247.css.map */
