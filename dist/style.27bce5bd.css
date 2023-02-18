@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  width: 928px;
+  display: flex;
+  margin: 0px auto;
+  top: 50%;
+  transform: translate(0%, 50%);
+  border-top: none;
+}
+.container .container-card {
+  border: 1px solid #0D274D;
+}
+.container .container-card .container-card__title {
+  background: #0D274D;
+}
+.container .container-card .container-card__title .container-card__title__text {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .container-card .container-card__info {
+  background: white;
+  font-size: 15px;
+}
+.container .container-card .container-card__info .create-line {
+  width: 238px;
+  margin: 0px auto;
+  border: 1px solid #00BCEB;
+  margin-top: 47px;
+}
+.container .container-card .container-card__info .create-line3 {
+  margin-top: 22px;
+}
+.container .container-card .container-card__info p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #000000;
+}
+.container .container-card .container-card__info .container-card__info__services {
+  display: flex;
+  margin-top: 14px;
+  text-align: left;
+  padding-left: 16px;
+}
+.container .container-card .container-card__info .container-card__info__services img {
+  height: 13px;
+  width: 16px;
+  margin-right: 12px;
+}
+.container .container-card .container-card__info .container-card__info__services .container-card__info__services1 {
+  width: 215px;
+  margin-bottom: 28px;
+}
+.container .container-card .container-card__info .container-card__info__services .container-card__info__services2 {
+  margin-bottom: 49px;
+}
+.container .container-card .container-card__info .container-card__info__services .container-card__info__services3 {
+  width: 237px;
+  margin-bottom: 27px;
+}
+.container .container-card .container-card__info h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0px auto;
+}
+.container .container-card .container-card__info .container-card__info__price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 238px;
+  margin: 0px auto;
+}
+.container .container-card .container-card__info .container-card__info__price h3 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #0E9A0B;
+}
+.container .container-card .container-card__info .container-card__info__price p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #282828;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.container .container-card .container-card__info .container-card__info__header {
+  margin-top: 14px;
+}
+.container .container-card .container-card__info .container-card__info__list {
+  display: flex;
+  align-items: center;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-left .container-card__info__list-left-block {
+  display: flex;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+.container .container-card .container-card__info .container-card__info__list .container-card__info__list-right .container-card__info__list-right-block {
+  display: flex;
+}
+.container .container-card1 {
+  width: 281px;
+}
+.container .container-card1 .container-card__title__text {
+  padding: 15px 0px 15px 46px;
+}
+.container .container-card2 {
+  width: 320px;
+}
+.container .container-card2 .container-card__title__text {
+  padding: 15px 0px 15px 57px;
+}
+.container .container-card3 {
+  width: 327px;
+}
+.container .container-card3 .container-card__title__text {
+  padding: 15px 0px 15px 101px;
+}
+
+/*# sourceMappingURL=/style.27bce5bd.css.map */
